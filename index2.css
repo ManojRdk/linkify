@@ -1,0 +1,308 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&family=Roboto:wght@700;900&family=Rowdies&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&family=Poppins:wght@300;400;500;600;700;800&family=Roboto:wght@700;900&family=Rowdies&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins,sans-serif;
+}
+:root{
+    --body-color:#E4E9F7;
+    --sidebar-color:#11203a;
+    --primary-color:#eee7e7be;
+    --primary-color-light:#F9F5FF;
+    --toggle-color:#DDD;
+    --text-color:#707070;
+  
+    --tran-02:all 0.2s ease;
+    --tran-03:all 0.3s ease;
+    --tran-04:all 0.4s ease;
+    --tran-05:all 0.5s ease;
+  }
+  body{
+    height: 1000vh;
+    background: var(--body-color);
+    transition: var(--tran-05);
+  }
+.container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 230px;
+    padding: 10px 5px;
+    background: rgb(15, 23, 48);
+    transition: var(--tran-05);
+    z-index: 1;
+    transform: translateX(-230px);
+}
+.container .head{
+    color: #fff;
+    font-family: poppins, sans-serif;
+    font-size: 25px;
+    font-weight:bold;
+    padding: 8px;
+    margin-bottom: 15px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.head{
+    margin:  0% 40px ;
+}
+.logo{
+    margin-top: -33%;
+    margin-left: -8rem;
+}
+ol{
+    width: 100%;
+    list-style: none;
+}
+
+ol li{
+    display: block;
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    transform: var(--tran-02);
+}
+ol li a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    margin: 0px 15px 0px;
+    color:rgba(249, 249, 249, 0.907);
+    transition: var(--tran-04);
+
+}
+
+ol li a i{
+    width: 70px;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 10px;
+    margin-left: -10px;
+}
+
+ol li:hover a{
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    background:#eee7e7be ;
+    color: #000000;
+    transition: var(--tran-04);
+}
+.search-box {
+    background: var(--primary-color-light);
+    border-radius: 6px;
+    transition: var(--tran-05);
+  }
+  .search-box i{
+    margin-left: 20px;
+    font-size: 20px;
+  }
+  .search-box input{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: var(--primary-color-light);
+    padding-left: 15px;
+  }
+  input{
+    -webkit-appearance: none;
+}
+
+span{
+    position:absolute;
+    right:-50px;
+    top:13px;
+    margin-left: 10px;
+    font-size: 25px;
+    border-radius: 3px;
+    color: #ffffff;
+    padding: 3px 8px;
+    cursor: pointer;
+}
+#times{
+  color: #DDD;
+}
+#bars{
+  background:#03052df6;
+}
+#check:checked ~ .container{
+    transform: translateX(0);
+}
+#check:checked ~ .container #bars{
+    display: none;
+}
+
+.home{
+    position: relative;
+    height: 100vh;
+    background:#fff;
+    transition: var(--tran-05);
+  }
+  .home .text{
+    font-family: poppins,sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    padding-top: 25px;
+    color:rgb(15, 63, 109);
+  }
+  .home img {
+    margin: 10px 12%;
+  }
+  .container-bar{
+    position: relative;
+    background: #03052D;
+    height: 39.5%;
+    width: 100%;
+    margin-top: -24px;
+ }
+ .container-bar img{
+    padding-left: 75px;
+    margin-top: 12px;
+    align-items: center;
+    justify-content: center;
+ }
+ p{
+    color: #E4E9F7;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: -8.5% 35.5%;
+    font-weight:bolder;
+    letter-spacing: 2.5px;
+    font-size: 20px;
+}
+.link{
+  font-family:Tahoma, sans-serif;
+  font-size: 20px;
+  color: #0a93e3ef;
+  margin: -1.7px 12rem;
+}
+.box{
+  margin-top: 10px;
+ width: 95%;
+}
+.search{
+  background:#c7d4e2;
+  border-radius: 6px;
+  transition: var(--tran-05);
+  margin-left: 10px;
+}
+.search i{
+  font-size: 25px;
+  margin-left: 20px;
+}
+.search input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#c7d4e2;
+    padding-left: 10px;
+}
+.social{
+  background-color: #e3e9ef;
+  border-radius: 1.8px;
+  padding: 1px 3.5px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 18px;
+  margin-top: 18px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.text h1{
+  margin-top: 14px;
+  font-size: 19px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  color: #DDD;
+  letter-spacing: 1.2px;
+  margin-left: 14%;
+}
+.text h2{
+  margin: 10px 35px;
+  font-size: 19px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight:600;
+  color: #DDD;
+  margin-left: 73px;
+}
+.text h3{
+  margin: 10px 25px;
+  font-size: 19px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #DDD;
+  margin-left: 53px;
+  font-weight:600;
+  letter-spacing: 1.2px;
+}
+.text h4{
+  color: #DDD;
+  font-size: 19px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight:600;
+  letter-spacing: 1.2px;
+  margin-left: 75px;
+}
+.container-bar-box {
+  box-sizing: border-box;
+  position: relative;
+  height: 35%;
+  width: 94%;
+  margin: 20px 13px;
+  background-color: #bed8e7f7;
+  border-radius: 7px;
+}
+.box-insta img{
+  margin: 25px 5%;
+}
+.box-insta h1 {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin:-115px 121px;
+}
+.box-insta h2{
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 4rem;
+  padding: 90px 100px;
+}
+.link-share{
+  margin:-135px 310px;
+}
+.box-whatsapp img{
+  margin: 40% 6%;
+}
+.box-whatsapp h1 {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin:-215px 121px;
+}
+.box-whatsapp h2{
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 9rem;
+  padding: 90px 100px;
+}
+.whatsapp-share{
+  margin:-110px 310px;
+}

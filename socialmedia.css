@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 1000vh;
+}
+.container-bar{
+    position: relative;
+    background: #03052D;
+    height: 41%;
+    width: 100%;
+    margin: 0;
+ }
+ .container-bar img{
+    padding-left: 116px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    align-items: center;
+    justify-content: center;
+ }
+ .image img{
+    margin: 18px 60px;
+ }
+ .image h1{
+    margin:3px 126px;
+    color: #2C2C2C;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 700;
+ }
+ .image p{
+    margin:13px 40px;
+    color: #2C2C2C;
+    font-family:arial;
+    font-size: 12px;
+    font-weight:lighter;
+ }
+ .container {
+    position:absolute;
+    width: 375px;
+    height: 1000vh;
+    background: rgba(3, 5, 45, 0.07);
+  }
+
+  .box-insta{
+    width: 348px;
+    height: 128px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #F8F8F8;
+    margin: 15px 11px;
+  }
+  .box-insta img{
+    margin: 25px 5%;
+  }
+  .box-insta h1 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:-115px 121px;
+  }
+  .box-insta h2{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 4rem;
+    padding: 90px 100px;
+  }
+  .link-share{
+    margin:-135px 310px;
+  }
+
+  .box-whatsapp{
+    width: 348px;
+    height: 128px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #F8F8F8;
+    margin: 15px 11px;
+  }
+  .box-whatsapp img{
+    margin: -25% 5%;
+  }
+  .box-whatsapp h1 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0px 121px;
+    padding-top: -55%;
+  }
+  .box-whatsapp h2{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px 100px;
+  }
+  .whatsapp-share{
+    margin:-60px 310px;
+  }
+
+  .box-twitter {
+    width: 348px;
+    height: 128px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #F8F8F8;
+    margin: 15px 11px;
+  }
+  .box-twitter img{
+    margin: -25% 5%;
+  }
+  .box-twitter h1 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0px 121px;
+    padding-top: -55%;
+  }
+  .box-twitter h2{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px 100px;
+  }
+  .twitter-share{
+    margin:-60px 310px;
+  }
+
+.box-facebook{
+    width: 348px;
+    height: 128px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #F8F8F8;
+    margin: 15px 11px;
+  }
+  .box-facebook img{
+    margin: -25% 5%;
+  }
+  .box-facebook h1 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0px 121px;
+    padding-top: -55%;
+  }
+  .box-facebook h2{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px 100px;
+  }
+  .facebook-share{
+    margin:-60px 310px;
+  }
+
+.box-snapchat{
+    width: 348px;
+    height: 128px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #F8F8F8;
+    margin: 15px 11px;
+  }
+  .box-snapchat img{
+    margin: -25% 5%;
+    border-radius: 45%;
+  }
+  .box-snapchat h1 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0px 121px;
+    padding-top: -55%;
+  }
+  .box-snapchat h2{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px 100px;
+  }
+  .snapchat-share{
+    margin:-60px 310px;
+  }
